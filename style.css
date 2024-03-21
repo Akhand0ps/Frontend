@@ -1,12 +1,56 @@
-.box{
+body{
+ margin: 0; 
+ font-family: Arial, Helvetica, sans-serif;  
+}
+.container{
+    padding: 16px;
+}
 
-    background-color: greenyellow;
-    color: red;
-    padding: 24px;
-    border: 2px;
-    margin: 16px 16px;
-    border-top-right-radius: 100px ;
-    border-bottom-left-radius: 50px;
+.container >div h2{
+    text-align: center;
+ }
+
+.intro{
+    margin:-16px;
+    padding: 16px;
+    background-color: rgb(34, 32, 32);
+    color:white;
+    text-align: center;
     
+}
+#profile{
+    height:400px;
+    width:400px;
+    border-radius:50%
+}
 
+.social-links img{
+    height: 20px;
+    width: 20px;
+
+}
+
+.social-links a{
+    text-decoration:none;
+    margin:auto 16px;
+}
+
+table,
+tr,
+th,
+td{
+    border:1px solid;
+    border-collapse: collapse ;
+}
+th,
+td{
+    padding: 8px;
+    width: 50%;
+    height: 50%;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    
 }
