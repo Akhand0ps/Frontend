@@ -1,0 +1,35 @@
+/* body{
+    background-image: url(blue.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+} */
+
+.rojo{
+    color:red;
+    font-weight: normal;
+}
+
+#red{
+    height: 200px;
+    width:200px;
+}
+
+.azul{
+    color:blue;
+    font-weight: light;
+}
+
+#blue{
+    height: 200px;
+    width: 300px;
+}
+
+.anaranjado{
+    color:orange;
+    font-weight: normal;
+}
+
+#orange{
+    height: 200px;
+    width: 200px;
+}
