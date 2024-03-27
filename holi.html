@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Holi Festival Website</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+  }
+  p {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin: 20px 0;
+  }
+  .colors {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .color {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  .color:hover {
+    transform: scale(1.1);
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Happy Holi!</h1>
+  <p>Be the Someone's happiness!</p>
+  <div class="colors">
+    <div class="color" style="background-color: #FF5733;"></div>
+    <div class="color" style="background-color: #FFC300;"></div>
+    <div class="color" style="background-color: #DAF7A6;"></div>
+    <div class="color" style="background-color: #7FB3D5;"></div>
+    <div class="color" style="background-color: #C39BD3;"></div>
+  </div>
+</div>
+</body>
+</html>
